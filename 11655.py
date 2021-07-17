@@ -1,8 +1,8 @@
-a = input()
+v = input()
 lalph = 'abcdefghijklmnopqrstuvwxyz'*2
 ualph = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'*2
 
-for i in a:
+for i in v:
     if i.isupper():
         print(ualph[ualph.find(i)+13], end='')
     elif i.islower():
